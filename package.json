@@ -1,0 +1,15 @@
+{
+  "name": "tensorflow-ai-education",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "石亀広大 <kira5052@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "http-server ./src -o"
+  },
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "prettier": "^1.15.3"
+  }
+}
