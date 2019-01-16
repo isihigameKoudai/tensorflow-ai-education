@@ -36,24 +36,32 @@ Artificial Intelligence の略。人工知能は**機械学習**と言う言葉�
 | レベル２ | 対応パターンがかなり多い、判断力が求められる                            |
 | レベル１ | 単純な制御プログラム                                                    |
 
+### 機械学習とその種類について
+#### 機械学習（Machine Learning）
+機械学習とは人間が自然と行なっているの脳の仕組みや機能と同等の動きをコンピュータで実現する技術と手法のこと
+
+#### 機械学習の種類
+- 教師あり学習（Supervised Learning）・・・回帰・分類
+- 教師なし学習（Unsupervised Learning）・・・クラスタリング・次元削減
+- 強化学習
+
+- ニューラルネットワーク（パーセプトロン、CNN,RNN）
+- CNN（Convolutional Neural Network：畳み込みニューラルネットワーク）・・・画像認識や音声認識、教師あり
+- RNN（Recurrent Neural Network：再帰型ニューラルネットワーク）・・・LSTM（Long Short-Term Memory）、自然言語や時系列データの識別・生成、教師あり
+- GAN (Generative Adversarial Network: 敵対的生成ネットワーク)・・・　生成ネットワーク（generator）と識別ネットワーク（discriminator）から成る教師なし学習のネットワークの一つ
+
+
 ## 用語集
 
-- 機械学習（Machine Learning）
 - 深層学習（Deep Learning）
 - 学習モデル
 - 転移学習
-- ニューラルネットワーク
 
 - 線形回帰と非線形回帰
 - 学習済みモデル（ネットワークモデル）＝アルゴリズム＋トレーニングデータ
 - 学習（learning）と推論（inference）
-- 教師あり学習（Supervised Learning）・・・回帰・分類
-- 教師なし学習（Unsupervised Learning）・・・クラスタリング・次元削減
-- 強化学習
 - オートエンコーダー
-- CNN（Convolutional Neural Network：畳み込みニューラルネットワーク）・・・画像認識や音声認識
-- RNN（Recurrent Neural Network：再帰型ニューラルネットワーク）・・・LSTM（Long Short-Term Memory）、自然言語や時系列データの識別・生成
-- GAN (Generative Adversarial Network: 敵対的生成ネットワーク)・・・　生成ネットワーク（generator）と識別ネットワーク（discriminator）から成る教師なし学習のネットワークの一つ
+
 
 ## Tensorflow.js 入門
 
@@ -99,22 +107,25 @@ biases.print() // output: [0, 1, 0]
 
 ## 参考
 
+https://qiita.com/tomomoto/items/b3fd1ec7f9b68ab6dfe2
+http://gagbot.net/machine-learning/ml4
+https://products.sint.co.jp/aisia/blog/vol1-20
 http://tensorflow.classcat.com/
 
-**AI 全般**  
+### AI 全般  
 https://www.sejuku.net/blog/7290
 https://deepinsider.jp/
 https://thinkit.co.jp/story/2015/09/09/6399
 https://qiita.com/yoshizaki_kkgk/items/55b67daa25b058f39a5d
 
-**おすすめ書籍**  
+### おすすめ書籍  
 https://qiita.com/tani_AI_Academy/items/4da02cb056646ba43b9d
 https://www.data-artist.com/contents/ai-books.html
 
-**LSTM**  
+### LSTM
 https://qiita.com/t_Signull/items/21b82be280b46f467d1b
 
-**Tensorflow.js**  
+### Tensorflow.js
 http://tensorflow.classcat.com/2018/04/03/tensorflow-js-tutorials-core-concepts/
 https://deepinsider.jp/tutor/introtensorflow
 https://www.sejuku.net/blog/46586
