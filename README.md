@@ -41,14 +41,28 @@ Artificial Intelligence の略。人工知能は**機械学習**と言う言葉�
 機械学習とは人間が自然と行なっているの脳の仕組みや機能と同等の動きをコンピュータで実現する技術と手法のこと
 
 #### 機械学習の種類
-- 教師あり学習（Supervised Learning）・・・回帰・分類
-- 教師なし学習（Unsupervised Learning）・・・クラスタリング・次元削減
+- 教師あり学習
+- 教師なし学習
 - 強化学習
+- ニューラルネットワーク
+- CNN（Convolutional Neural Network）
+- RNN（Recurrent Neural Network：再帰型ニューラルネットワーク）
+- LSTM（Long Short-Term Memory）
+- GAN (Generative Adversarial Network: 敵対的生成ネットワーク)
 
-- ニューラルネットワーク（パーセプトロン、CNN,RNN）
-- CNN（Convolutional Neural Network：畳み込みニューラルネットワーク）・・・画像認識や音声認識、教師あり
-- RNN（Recurrent Neural Network：再帰型ニューラルネットワーク）・・・LSTM（Long Short-Term Memory）、自然言語や時系列データの識別・生成、教師あり
-- GAN (Generative Adversarial Network: 敵対的生成ネットワーク)・・・　生成ネットワーク（generator）と識別ネットワーク（discriminator）から成る教師なし学習のネットワークの一つ
+#### 教師あり学習（Supervised Learning）・・・回帰・分類
+教師あり学習は人間が学習させた大量の「入力」と「正解データ」の特徴量を元に、未知のデータがなんであるかを判断していくような機械学習のこと。主に「回帰」と「分類」に用いられ、画像の判断や手書き文字の認識などによく使われている。
+#### 教師なし学習（Unsupervised Learning）
+教師なし学習は「正解データ」のない機械学習で、大量のデータをインプットさせるがそこに答えはなくどういった特徴量があるかを導き出す学習のこと。主に「クラスタリング」や「次元削減」に使われます。クラスタリングはバラバラに散らばったデータから関係性を学習しグルーピングします。次元削減は、多次元要素からなるデータの集まりがもつ特徴量を見つけ、本来あった次元を減らしていきます。
+#### 強化学習
+強化学習は、望ましい答えを得られた場合に「報酬」を与えることにより、その報酬を得るような行動をしていくスタイルの機械学習です。囲碁などで使われることがあり、一手には判断基準がないが勝つか負けるかという所に価値があり、出来るだけ勝つことを達成するための行動をとるようになって行きます。
+
+
+
+#### ニューラルネットワーク（パーセプトロン、CNN,RNN）
+#### CNN（Convolutional Neural Network：畳み込みニューラルネットワーク）・・・画像認識や音声認識、教師あり
+#### RNN（Recurrent Neural Network：再帰型ニューラルネットワーク）・・・LSTM（Long Short-Term Memory）、自然言語や時系列データの識別・生成、教師あり
+#### GAN (Generative Adversarial Network: 敵対的生成ネットワーク)・・・　生成ネットワーク（generator）と識別ネットワーク（discriminator）から成る教師なし学習のネットワークの一つ
 
 
 ## 用語集
