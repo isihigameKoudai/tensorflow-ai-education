@@ -146,3 +146,7 @@ https://www.sejuku.net/blog/46586
 https://qiita.com/yukagil/items/ca84c4bfcb47ac53af99
 https://mizchi.hatenablog.com/entry/2018/10/28/211852
 https://mizchi.hatenablog.com/entry/2018/10/01/135805
+
+https://qiita.com/tomomoto/items/b3fd1ec7f9b68ab6dfe2
+http://gagbot.net/machine-learning/ml4
+https://qiita.com/KojiOhki/items/89cd7b69a8a6239d67ca
