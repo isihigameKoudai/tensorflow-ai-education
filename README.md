@@ -70,9 +70,10 @@ CNNは深層学習の一種で「畳み込み層」と「プーリング層」�
 CNNが取り扱っていた２次元的なものではなく、RNNでは「時系列」をコンテキストに含むNNで、一連のデータに流れを持たせていることが特徴である。隠れ層で扱ったデータを再び隠れ層にインプットすることで、前のデータの状態を踏まえた上でデータを処理します。主に音声や言語解釈で使われることが多く、文章や会話の理解・文脈の抽出などで使われたり、過去のデータを踏まえて未来のデータを予測する天気予報のようなところでも使われます。
 
 #### LSTM（Long Short-Term Memory）
-RNNの一種ですが、こちらは長期的な依存関係を学習するモデルです。
+RNNの一種ですが、こちらは長期的な依存関係を学習するモデルです。隠れ層をLSTM blockと呼ばれるメモリと３つのゲートをもつユニットに置き換えるだけです。
 
-#### GAN (Generative Adversarial Network: 敵対的生成ネットワーク)・・・　生成ネットワーク（generator）と識別ネットワーク（discriminator）から成る教師なし学習のネットワークの一つ・
+#### GAN (Generative Adversarial Network: 敵対的生成ネットワーク)
+生成ネットワーク（Generator）と識別ネットワーク（Discriminator）から成る教師なし学習のネットワークの一つで、Generater出来るだけ本物に近づけた偽物を生成し、それをDiscriminatorが強力に判断していく、というものを繰り返していきます。機械自身が仮定と否定を繰り返し限りなく答えに近くという、近年注目されている学習です。
 
 
 ## 用語集
@@ -149,6 +150,7 @@ https://qiita.com/tani_AI_Academy/items/4da02cb056646ba43b9d
 https://www.data-artist.com/contents/ai-books.html
 
 ### LSTM
+https://qiita.com/dojineko/items/ae7393dc83fb1f5fb0a4
 https://qiita.com/t_Signull/items/21b82be280b46f467d1b
 https://qiita.com/KojiOhki/items/89cd7b69a8a6239d67ca
 
