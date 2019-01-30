@@ -63,11 +63,14 @@ Artificial Intelligence の略。人工知能は**機械学習**と言う言葉�
 #### 深層学習（Deep Learning）
 深層学習は前述のNNの隠れ層を何層にも重ねたネットワークのこと。
 
-#### CNN（Convolutional Neural Network：畳み込みニューラルネットワーク）・・・画像認識や音声認識、教師あり
+#### CNN（Convolutional Neural Network：畳み込みニューラルネットワーク）
 CNNは深層学習の一種で「畳み込み層」と「プーリング層」の二つの幾重にも重なった層からなる隱れ層を持つのが特徴。畳み込み層ではフィルタの適用によって「特徴マップ」と呼ばれるデータの特徴的な部分を抽出します。プーリング層では畳み込み層で得られた特徴量を元に縮小したマップを生成します。つまりは、データをどんどん抽象化していくことがCNNの得意とすることで、主に画像認識や解析に使われることが多いです。
 
-#### RNN（Recurrent Neural Network：再帰型ニューラルネットワーク）・・・LSTM（Long Short-Term Memory）、自然言語や時系列データの識別・生成、教師あり
-CNNが取り扱っていた２次元的なものではなく、RNNでは「時系列」をコンテキストに含むNNで、一連のデータに流れを持たせていることが特徴である。隠れそうで扱ったデータを
+#### RNN（Recurrent Neural Network：再帰型ニューラルネットワーク）
+CNNが取り扱っていた２次元的なものではなく、RNNでは「時系列」をコンテキストに含むNNで、一連のデータに流れを持たせていることが特徴である。隠れ層で扱ったデータを再び隠れ層にインプットすることで、前のデータの状態を踏まえた上でデータを処理します。主に音声や言語解釈で使われることが多く、文章や会話の理解・文脈の抽出などで使われたり、過去のデータを踏まえて未来のデータを予測する天気予報のようなところでも使われます。
+
+#### LSTM（Long Short-Term Memory）
+RNNの一種ですが、こちらは長期的な依存関係を学習するモデルです。
 
 #### GAN (Generative Adversarial Network: 敵対的生成ネットワーク)・・・　生成ネットワーク（generator）と識別ネットワーク（discriminator）から成る教師なし学習のネットワークの一つ・
 
@@ -147,6 +150,7 @@ https://www.data-artist.com/contents/ai-books.html
 
 ### LSTM
 https://qiita.com/t_Signull/items/21b82be280b46f467d1b
+https://qiita.com/KojiOhki/items/89cd7b69a8a6239d67ca
 
 ### Tensorflow.js
 http://tensorflow.classcat.com/2018/04/03/tensorflow-js-tutorials-core-concepts/
