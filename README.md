@@ -91,7 +91,7 @@ RNNの一種ですが、こちらは長期的な依存関係を学習するモ�
 
 #### Tensor
 
-tensor とは多次元配列のことで、tensorflow の名前の通り多次元配列を中心に取り扱っていきます。tensor 自体は shape と呼ばれる、配列の形となるデータ構造を持ちます。
+tensor とは多次元配列のことで、tensorflow の名前の通り多次元配列を中心に取り扱っていきます。tensor 自体は shape と呼ばれる、配列の形となるデータ構造を持ちます。基本的にtensorはイミュータブルなので、後からデータを書き換えることが出来ないですが、品質の担保に繋がります。
 
 ```js
 // 2x3 Tensor
@@ -105,6 +105,20 @@ const b = tf.tensor([[100, 200, 300], [10.0, 20.0, 30.0]])
 b.print()
 // [[100 , 200 , 300 ],
 //  [10, 20, 30]]
+
+// 低次元配列を作るときは可読性を上げるため、tf.scalar, tf.tensor1d, tf.tensor2d, tf.tensor3d と tf.tensor4dを推奨します。
+const c = tf.tensor2d([[1.0, 2,0],[3.0, 4.0]])
+c.print()
+// [[1 , 2],
+//  [3, 4]]
+
+// 全て0の配列を作ることも簡単にできます。
+const zeros = tf.zeros([3, 4]);
+zeros.print();
+//   [[0, 0, 0, 0],
+//    [0, 0, 0, 0],
+//    [0, 0, 0, 0]]
+
 ```
 
 #### Variables
@@ -122,6 +136,12 @@ biases.print() // output: [0, 1, 0]
 ```
 
 #### Ops
+Opsはデータを操作するためのもので、tesor自体はイミュータブルなので新しいtensorを返す形で配列操作を行います。
+const d = tf.tensor2d([[5.0, 1.0], [2.0, 4.0]]);
+const d_squared = d.square();
+d_squared.print();
+// Output: [[25, 1 ],
+//          [4, 16]]
 
 #### Model と Layer
 
