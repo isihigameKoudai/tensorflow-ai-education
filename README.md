@@ -137,7 +137,7 @@ biases.print() // output: [0, 1, 0]
 
 #### Ops
 Opsはデータを操作するためのもので、tesor自体はイミュータブルなので新しいtensorを返す形で配列操作を行います。
-```
+```js
 const d = tf.tensor2d([[5.0, 1.0], [2.0, 4.0]]);
 const d_squared = d.square();
 d_squared.print();
