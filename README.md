@@ -12,13 +12,11 @@ Artificial Intelligence の略。人工知能は**機械学習**と言う言葉�
 
 大きく分けると **Artificial General Intelligence(AGI)** と、 **Growing Artificial Intelligence(GAI)** に分けられる。
 
-#### Artificial General Intelligence
+#### AGI(Artificial General Intelligence: 特化型人工知能)
+ある特定の分野のみに特化して能力を発揮する人工知能のこと。ある分野に特化することで人間を超えるほどの能力を発揮することがある。
 
-**特化型人工知能（AGI）** とも呼ばれ、ある特定の分野のみに特化して能力を発揮する人工知能のこと。ある分野に特化することで人間を超えるほどの能力を発揮することがある。
-
-#### Growing Artificial Intelligence
-
-**汎用型人工知能（GAI）** は、異なる分野に置いて複雑な問題を解決する人工知能のこと。
+#### GAI(Growing Artificial Intelligence: 汎用型人工知能)
+異なる分野に置いて複雑な問題を解決する人工知能のこと。
 
 #### 弱い人工知能(AI)・強い人工知能(AI)
 
