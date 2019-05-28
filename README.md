@@ -123,6 +123,16 @@ biases.print() // output: [0, 1, 0]
 
 #### Ops
 
+Opsは演算のことで、データを操作することを可能とします。基本的にtensorはイミュータブルなので、演算結果を新しい値として返します。
+
+```
+const d = tf.tensor2d([[2.0, 4.0], [3.0, 5.0]]);
+const d_squared = d.square();
+d_squared.print();
+// Output: [[4, 16 ],
+//          [9, 25]]
+```
+
 #### Model と Layer
 
 #### メモリ管理
