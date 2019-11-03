@@ -9,7 +9,7 @@
     "dev": "http-server ./src -o"
   },
   "dependencies": {
-    "eslint": "^5.9.0",
-    "prettier": "^1.15.3"
+    "eslint": "^5.16.0",
+    "prettier": "^1.18.2"
   }
 }
